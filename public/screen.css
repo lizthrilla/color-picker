@@ -22,7 +22,7 @@ h1 {
   width: 200px;
   border-style: solid;
   border-color: grey;
-  background-image: url(test_b_check.jpg);
+  background-image: url(base.png);
   border-radius: 5px;
   margin: auto;
 }
@@ -51,4 +51,30 @@ form {
 
 input {
   width: 200px;
+  margin: 5px;
+}
+
+.hue {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo);
+  border-radius: 3px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.sat {
+  background-image: linear-gradient(to right, #494949 0%, transparent 100%), linear-gradient(to right, #fff 0%, transparent 100%);
+  border-radius: 3px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.light {
+  background-image: linear-gradient(to right, #000 0%, transparent 100%), linear-gradient(to right, #fff 0%, transparent 100%);
+  border-radius: 3px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.alpha {
+
 }
