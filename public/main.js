@@ -1,7 +1,7 @@
-let hue = 196
-let sat = 89
-let light = 70
-let alpha = 1
+let hue = 130
+let sat = 55
+let light = 55
+let alpha = .5
 
 //hsl (128,100 %, 50 %)
 const getHSL = () => {
@@ -28,11 +28,12 @@ const main = () => {
   swatch.style.backgroundColor = getHSL()
   console.log(getHSL())
 })
-
-   //document.querySelector('input[name=alpha]')
-  //alphaInput.addEventListener('input', () => {
-  //alpha = alphaInput.value
-
+  const alphaInput = document.querySelector('input[name=alpha]')
+  alphaInput.addEventListener('input', () => {
+    alpha = alphaInput.value
+    swatch.style.backgroundColor = getHSL()
+    console.log(getHSL())
+})
 }
 
 document.addEventListener('DOMContentLoaded', main)
