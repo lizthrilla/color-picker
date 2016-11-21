@@ -5,4 +5,18 @@ html {
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.swatch {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-width: thick;
+  margin: auto;
+  text-align: center;
+  border-color: hsl(0, 0%, 38%);
+  border-radius: 5px;
 }
