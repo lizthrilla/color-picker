@@ -1,7 +1,7 @@
 let hue = 130
 let sat = 55
 let light = 55
-let alpha = .5
+let alpha = 1
 
 //hsl (128,100 %, 50 %)
 const getHSL = () => {
