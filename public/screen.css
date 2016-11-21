@@ -17,13 +17,25 @@ h1 {
   padding: 1em;
 }
 
-.swatch {
+.alphaimg {
   height: 200px;
   width: 200px;
   border-style: solid;
   border-color: grey;
+  background-image: url(test_b_check.jpg);
   border-radius: 5px;
   margin: auto;
+}
+
+.swatch {
+  height: 200px;
+  width: 200px;
+  border-radius: 1px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
 }
 
 .sliders {
@@ -36,6 +48,7 @@ h1 {
 form {
   margin: auto;
 }
+
 input {
   width: 200px;
 }

@@ -24,11 +24,15 @@ const main = () => {
 })
   const lightInput = document.querySelector('input[name=light]')
   lightInput.addEventListener('input', () => {
-  sat = lightInput.value
+  light = lightInput.value
   swatch.style.backgroundColor = getHSL()
   console.log(getHSL())
 })
-}
 
+   //document.querySelector('input[name=alpha]')
+  //alphaInput.addEventListener('input', () => {
+  //alpha = alphaInput.value
+
+}
 
 document.addEventListener('DOMContentLoaded', main)
