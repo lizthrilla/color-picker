@@ -9,14 +9,23 @@ body {
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  padding: 1em;
 }
+
+h1 {
+  margin: auto;
+  padding: 1em;
+}
+
 .swatch {
   height: 200px;
   width: 200px;
   border-style: solid;
-  border-width: thick;
+  border-color: grey;
   margin: auto;
-  text-align: center;
-  border-color: hsl(0, 0%, 38%);
-  border-radius: 5px;
+}
+
+.sliders {
+  margin: auto;
+  padding: 1em;
 }
