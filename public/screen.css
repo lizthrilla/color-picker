@@ -22,7 +22,10 @@ h1 {
   width: 200px;
   border-style: solid;
   border-color: grey;
-  background-image: url(base.png);
+  background-image: url(test_b_check.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   border-radius: 5px;
   margin: auto;
 }
@@ -76,5 +79,7 @@ input {
 }
 
 .alpha {
-
+  background-image: url(test_b_check.jpg);
+  background-position: center;
+  background-size: contain;
 }
