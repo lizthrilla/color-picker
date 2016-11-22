@@ -5,6 +5,9 @@ let alpha = 1
 
 const colorChange = () => {
   document.querySelector('.colorname').textContent = getHSL()
+  const swatch = document.querySelector('.swatch')
+  swatch.style.backgroundColor = getHSL()
+  document.querySelector('.satcolor').style.backgroundColor = getHSL()
 }
 /*const incrementPlayerCount = () => {
   console.log('Player Wins')
@@ -22,35 +25,35 @@ const getHSL = () => {
 }
 
 const main = () => {
-  const swatch = document.querySelector('.swatch')
   const hueInput = document.querySelector('input[name=hue]')
   hueInput.addEventListener('input', () => {
     hue = hueInput.value
-    swatch.style.backgroundColor = getHSL()
     console.log(getHSL())
     colorChange()
   })
+
   const satInput = document.querySelector('input[name=sat]')
   satInput.addEventListener('input', () => {
     sat = satInput.value
-    swatch.style.backgroundColor = getHSL()
     console.log(getHSL())
     colorChange()
-})
+  })
+
   const lightInput = document.querySelector('input[name=light]')
   lightInput.addEventListener('input', () => {
-  light = lightInput.value
-  swatch.style.backgroundColor = getHSL()
-  console.log(getHSL())
-  colorChange()
-})
+    light = lightInput.value
+    console.log(getHSL())
+    colorChange()
+  })
+
   const alphaInput = document.querySelector('input[name=alpha]')
   alphaInput.addEventListener('input', () => {
     alpha = alphaInput.value
-    swatch.style.backgroundColor = getHSL()
     console.log(getHSL())
     colorChange()
-})
+  })
+
+  colorChange()
 }
 
 document.addEventListener('DOMContentLoaded', main)
