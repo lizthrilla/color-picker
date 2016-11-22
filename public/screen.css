@@ -95,4 +95,7 @@ input {
 
 .alpha {
   background-image: linear-gradient(to right, hsla(66, 31%, 94%, 0.18), white);
+  border-radius: 3px;
+  border-style: solid;
+  border-width: thin;
 }
