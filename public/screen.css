@@ -87,8 +87,12 @@ input {
   border-width: thin;
 }
 
-.alpha {
+.alphaimg2 {
   background-image: url(test_b_check.jpg);
   background-position: center;
   background-size: contain;
+}
+
+.alpha {
+  background-image: linear-gradient(to right, hsla(66, 31%, 94%, 0.18), white);
 }
