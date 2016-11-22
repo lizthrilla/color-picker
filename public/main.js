@@ -1,5 +1,5 @@
 let hue = 130
-let sat = 55
+let sat = 100
 let light = 55
 let alpha = 1
 
